@@ -1,0 +1,28 @@
+.title-color{
+    color: orangered;
+}
+
+.main-title-class{
+    font-size: 4rem!important;
+    font-weight: 600!important;
+    font-family: fantasy!important;
+    height: 15rem!important;
+    color: #c24600!important;
+}
+
+.home-page-colors{
+    background-color: gray;
+    //background-image: url("../assets/img/navbar-background.jpg");
+}
+
+.title-a-default{
+
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+
+}
+
+.admin-btn{
+    color: #e4cf00;
+    font-weight: 700;
+}
