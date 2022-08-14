@@ -7,6 +7,7 @@ import { ContactsPageComponent } from './components/contacts-page/contacts-page.
 import { HistoryPageComponent } from './components/history-page/history-page.component';
 import { LocationPageComponent } from './components/location-page/location-page.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
+import { UnauthorizedComponent } from './components/login-page/unauthorized/unauthorized.component';
 import { ManagementPageComponent } from './components/management-page/management-page.component';
 import { NewPostComponent } from './components/management-page/new-post/new-post.component';
 import { PostsPageComponent } from './components/posts-page/posts-page.component';
@@ -18,6 +19,7 @@ const routes: Routes = [{ path: 'history', component: HistoryPageComponent },
 { path: 'animals', component: AnimalsPageComponent },
 { path: 'animals/:id', component: AnimalGroupPageComponent },
 { path: 'admin/login', component: LoginPageComponent },
+{ path: 'admin/unauthorized', component: UnauthorizedComponent },
 { path: 'admin/management', component: ManagementPageComponent },
 { path: 'admin/management/post', component: NewPostComponent },
 { path: '', component: PostsPageComponent }

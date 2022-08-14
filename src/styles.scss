@@ -2,3 +2,18 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+.full-heigth{
+    display: block;
+overflow-y: auto;
+overflow-x: hidden;
+min-height: 100vh;
+}
+
+// html,
+// body {
+//   height: 100%!important;
+//   margin: 0!important;
+// }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

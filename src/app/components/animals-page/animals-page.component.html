@@ -1,16 +1,15 @@
-<div class="container animals-background p-3 ">
+<div class="container animals-background p-3 josefin-slab">
     <div class="row justify-content-around">
         <ng-container *ngFor="let animal of animals">
-        <div class="col-3 mx-1 mt-3 mb-4 cursor-pointer" (click)="goToAnimal(animal)">
-            
-            <div class="card" >
-                <div class="row justify-content-center">
-                    <img src="{{animal.img}}" alt="..." class="responsive">
-                </div>
-                <div class="card-body">
-                    <p class="card-text">{{animal.tipo}}</p>
-                </div>
-            </div>
+            <div class="col-3 pt-2 mx-1 mt-3 mb-4 animals-card" >
+        <mat-card (click)="goToAnimal(animal)" class="p-4">
+            <div class="row justify-content-center">
+            <img mat-card-image src="{{animal.img}}" alt="not found" class="responsive">
+        </div>
+            <mat-card-content>
+                <div class="row justify-content-center">{{animal.tipo}}</div>
+            </mat-card-content>
+          </mat-card>
         </div>
     </ng-container>
 

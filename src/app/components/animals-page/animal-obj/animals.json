@@ -3,40 +3,60 @@
         "tipo":"gatti",
         "img":"../../../assets/img/gatti.png",
         "lista":[
-            {"nome":"1","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"2","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"3","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"4","img":"../../../assets/img/trova.png","note":""}
+            {"nome":"Gino e Pippo","img":"../../../../assets/img/gattini_1.jpeg","note":"allattamento gattini","tipo":"cuccioli"},
+            {"nome":"Gino","img":"../../../../assets/img/gattini_2.jpeg","note":"allattamento gattini","tipo":"cuccioli"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
         ]
     },
     "MAIALI":{
         "tipo":"maiali",
         "img":"../../../assets/img/maiali.png",
         "lista":[
-            {"nome":"1","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"2","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"3","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"4","img":"../../../assets/img/trova.png","note":""}
+            {"nome":"teo e lea","img":"../../../../assets/img/maiali_1.jpeg","note":"","tipo":"maiali"},
+            {"nome":"2","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
         ]
     },
     "GALLINE":{
         "tipo":"galline",
         "img":"../../../assets/img/galline.png",
         "lista":[
-            {"nome":"1","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"2","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"3","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"4","img":"../../../assets/img/trova.png","note":""}
+            {"nome":"1","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"2","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
         ]
     },
     "CAPRE":{
         "tipo":"capre",
         "img":"../../../assets/img/capre.png",
         "lista":[
-            {"nome":"1","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"2","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"3","img":"../../../assets/img/trova.png","note":""},
-            {"nome":"4","img":"../../../assets/img/trova.png","note":""}
+            {"nome":"1","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"2","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
+        ]
+    },
+    "PECORE":{
+        "tipo":"pecore",
+        "img":"../../../assets/img/pecore.png",
+        "lista":[
+            {"nome":"1","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"2","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
+        ]
+    },
+    "CINGHIALI":{
+        "tipo":"cinghiali",
+        "img":"../../../assets/img/cinghiali.png",
+        "lista":[
+            {"nome":"sevaggio e urlacchio","img":"../../../../assets/img/cinghiali_1.jpeg","note":"nuovi arrivi","tipo":"cinghiale maremmano"},
+            {"nome":"2","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"},
+            {"nome":"3","img":"../../../assets/img/trova.png","note":"","tipo":"tipo"},
+            {"nome":"4","img":"../../../assets/img/trova.png","note":"test 123","tipo":"tipo"}
         ]
     }
 }

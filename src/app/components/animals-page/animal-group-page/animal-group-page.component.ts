@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import animals from '../animal-obj/animals.json';
 
 @Component({
@@ -9,7 +9,7 @@ import animals from '../animal-obj/animals.json';
 })
 export class AnimalGroupPageComponent implements OnInit {
 
-  constructor( private route: ActivatedRoute) { }
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
   animals:any;
 
@@ -17,6 +17,10 @@ export class AnimalGroupPageComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     this.animals=animals[id.toUpperCase()]
 
+  }
+
+  goBack() {
+    this.router.navigate([`../../animals`], { relativeTo: this.route });
   }
 
   

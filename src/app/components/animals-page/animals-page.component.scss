@@ -1,5 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
+.josefin-slab{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    
+}
+
 .animals-background{
-    background-color: blue;
+    // background:  rgba(255, 255, 255, .85);
     margin-top: 2rem;
 }
 
@@ -7,3 +15,10 @@
     max-width: 75%!important;
     height: 10rem!important;
   }
+
+  .animals-card{
+    cursor: pointer;
+    background: rgb(177 59 40 / 65%);
+    border-radius: 50%;
+  }
+

@@ -15,6 +15,7 @@ export class LoginPageComponent implements OnInit {
 
   _test(){
 
+    this.router.navigate([`../unauthorized`], { relativeTo: this.route });
   }
 
 }

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
 .title-color{
     color: orangered;
 }
@@ -7,12 +9,16 @@
     font-weight: 600!important;
     font-family: fantasy!important;
     height: 15rem!important;
-    color: #c24600!important;
+    color: #28a745!important;
+    background-image: url("../assets/img/header.jpg"); 
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 .home-page-colors{
-    background-color: gray;
-    //background-image: url("../assets/img/navbar-background.jpg");
+    // background-color: gray;
+    background-image: url("../assets/img/leaves-background.png");
 }
 
 .title-a-default{
@@ -25,4 +31,17 @@
 .admin-btn{
     color: #e4cf00;
     font-weight: 700;
+}
+
+.full-heigth{
+    display: block;
+overflow-y: auto;
+overflow-x: hidden;
+min-height: 100vh;
+}
+
+.text-navbar{
+    font-family: "Josefin Slab", serif;
+    font-size: 1.5rem;
+    font-weight: 800 !important;
 }

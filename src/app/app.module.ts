@@ -14,6 +14,11 @@ import { LoginPageComponent } from './components/login-page/login-page.component
 import { ManagementPageComponent } from './components/management-page//management-page.component';
 import { NewPostComponent } from './components/management-page/new-post/new-post.component';
 import { PostsPageComponent } from './components/posts-page/posts-page.component';
+import { UnauthorizedComponent } from './components/login-page/unauthorized/unauthorized.component';
+import { NewAnimalComponent } from './components/management-page/new-animal/new-animal.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -27,12 +32,17 @@ import { PostsPageComponent } from './components/posts-page/posts-page.component
     LoginPageComponent,
     ManagementPageComponent,
     NewPostComponent,
-    PostsPageComponent
+    PostsPageComponent,
+    UnauthorizedComponent,
+    NewAnimalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
